@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!doctype html>
 <html>
 <head>
-<title>S Chat Admin</title>
+<title>Tz Chat Admin</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="">
@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>hunt</span>
+      <span class="logo-mini"><b>Tz</b>Chat</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Tz-Chat</b> Admin</span>
     </a>
