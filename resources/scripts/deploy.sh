@@ -2,7 +2,7 @@
 
 # roqkf123
 
-export IP_ADDRESS=52.90.246.3
+export IP_ADDRESS=xxx.xxx.xxx.xxx
 
 #cd ../..
 #rm -rf web_apps.zip
