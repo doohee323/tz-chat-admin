@@ -832,11 +832,11 @@ var gf_LoadJson = function(scope, frm, load) {
 var gf_SwitchGender = function(scope, gender) {
   var from, to = '';
   if(gender == 'woman') {
-    from = '여자';
-    to = '남자';
+    from = 'Woman';
+    to = 'Man';
   } else {
-    from = '남자';
-    to = '여자';
+    from = 'Man';
+    to = 'Woman';
   }
   for(var i in scope.meetingTypeList.option) {
     var name = scope.meetingTypeList.option[i].name;

@@ -130,9 +130,9 @@ $(document).ready(
 			                sender_ip = 'woman_ip';
 			              }
 			              if (val === 'man') {
-			                val = '남';
+			                val = 'Man';
 			              } else {
-			                val = '여';
+			                val = 'Woman';
 			              }
 			            }
 			            tmp = tmp.replace('{' + key + '}', val);

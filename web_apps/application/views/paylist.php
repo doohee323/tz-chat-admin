@@ -137,9 +137,9 @@ $(document).ready(
 			            var val = res[i][key];
 			            if (key.startsWith('gender')) {
 			              if (val === 'man') {
-			                val = '남';
+			                val = 'Man';
 			              } else {
-			                val = '여';
+			                val = 'Woman';
 			              }
 			            }
 			            if (key === 'point') {

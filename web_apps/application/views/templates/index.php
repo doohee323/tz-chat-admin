@@ -257,16 +257,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </li>
 
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Manage자설정</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Manager Page</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a ui-sref="aaaa">Manage자Manage</a></li>
-            <li><a ui-sref="aaaa">기본설정</a></li>
+            <li><a ui-sref="aaaa">Manager Manage</a></li>
             <li><a ui-sref="sht.userlist">User Manage</a></li>
-            <li><a ui-sref="aaaa">신고List</a></li>
           </ul>
         </li>
         

@@ -39,7 +39,7 @@
 							<div class="form-group">
 								<label for="phone_confirm" class="col-sm-3 control-label">실명인증</label>
 								<div class="col-sm-9">
-									<label> 여 <input type="radio" name="phone_confirm"
+									<label> Woman <input type="radio" name="phone_confirm"
 										class="model minimal-red">
 									</label> <label> 부 <input type="radio" name="phone_confirm"
 										class="model minimal-red">
