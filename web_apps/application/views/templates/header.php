@@ -265,7 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- User Account: style can be found in dropdown.less -->
           <li id='profile' class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="" onerror='onImgError(this);' class="user-image" alt="User Image">
+              <img src="" onerror='onImgError(this);' onerror='onImgError2(this);' class="user-image" alt="User Image">
               <span class="hidden-xs"></span>
             </a>
             <ul class="dropdown-menu">
