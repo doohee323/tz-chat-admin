@@ -9,14 +9,14 @@
 
 		<form name="loginFrm">
 			<div class="form-group has-feedback">
-				<input id="userid" name="userid" type="text"
+				<input id="userid" name="userid" type="text" value='doohee323'
 					placeholder="Type in ID." class="form-control"
 					onkeypress="event.key === 'Enter' ? $('#passwd').focus():0"
 					required> <span
 					class="glyphicon glyphicon-envelope form-control-feedback"></span>
 			</div>
 			<div class="form-group has-feedback">
-				<input id="passwd" name="passwd" class="form-control"
+				<input id="passwd" name="passwd" class="form-control" value='123qwe'
 					type="password" placeholder="Type in password." required> <span
 					class="glyphicon glyphicon-lock form-control-feedback"></span>
 			</div>
