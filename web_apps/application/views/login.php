@@ -5,19 +5,19 @@
 	</div>
 	<!-- /.login-logo -->
 	<div class="login-box-body">
-		<p class="login-box-msg">로그인 Page</p>
+		<p class="login-box-msg">Sign In Page</p>
 
 		<form name="loginFrm">
 			<div class="form-group has-feedback">
 				<input id="userid" name="userid" type="text"
-					placeholder="ID를 입력하세요." class="form-control"
+					placeholder="Type in ID." class="form-control"
 					onkeypress="event.key === 'Enter' ? $('#passwd').focus():0"
 					required> <span
 					class="glyphicon glyphicon-envelope form-control-feedback"></span>
 			</div>
 			<div class="form-group has-feedback">
 				<input id="passwd" name="passwd" class="form-control"
-					type="password" placeholder="비밀No.를 입력하세요." required> <span
+					type="password" placeholder="Type in password." required> <span
 					class="glyphicon glyphicon-lock form-control-feedback"></span>
 			</div>
 			<!--        loginFrm.$valid = {{loginFrm.$valid}}<br> -->
@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="col-xs-8" style="margin-left: 20px;">
 					<div class="checkbox icheck">
-						<label> <input id="saveId" name="saveId" type="checkbox"> ID 저장
+						<label> <input id="saveId" name="saveId" type="checkbox"> Save ID
 						</label>
 					</div>
 				</div>
@@ -33,14 +33,14 @@
 				<div class="col-xs-3">
 					<div>
 						<a id="login"
-							class="btn btn-primary btn-block btn-flat">로그인</a>
+							class="btn btn-primary btn-block btn-flat">Sign in</a>
 					</div>
 				</div>
 				<!-- /.col -->
 			</div>
 		</form>
-		<a name="findId">ID 찾기</a><br> <a name="findPasswd">비밀No. 찾기</a><br> <a
-			name="register" class="text-center">가입하기</a>
+		<a name="findId">Find ID</a><br> <a name="findPasswd">Find password</a><br> <a
+			name="register" class="text-center">Register</a>
 	</div>
 	<!-- /.login-box-body -->
 </div>
