@@ -871,7 +871,7 @@ var gf_GetTicketImg = function(datas) {
   return datas;
 }
 
-function onImgError3(source) {
+function onImgError(source) {
   source.src = "../images/user-icon.png"
   source.onerror = "";
   return true;

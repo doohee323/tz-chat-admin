@@ -76,7 +76,7 @@ function removeSession() {
 }
 
 function onImgError(source) {
-  source.src = "../images/user-men.png"
+  source.src = "/images/user-icon.png"
   source.onerror = "";
   return true;
 }
@@ -88,9 +88,9 @@ var config = {
     socket_domain : 'http://admin.topzone.biz'
 };
 
-if (location.hostname === 'admin.tzchat.net') {
-  config.domain = 'http://admin.tzchat.net';
-  config.socket_domain = 'http://admin.tzchat.net';
+if (location.hostname === 'admin.topzone.biz') {
+  config.domain = 'http://admin.topzone.biz';
+  config.socket_domain = 'http://admin.topzone.biz';
 }
 
 </script>
