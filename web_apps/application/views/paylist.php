@@ -3,7 +3,7 @@
 	<!-- 컨텐츠 -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-		<h1>결제목록</h1>
+		<h1>Pay List</h1>
 	</section>
 
 	<!-- Main content -->
@@ -46,7 +46,7 @@
 									<th class='text-center'>아이디</th>
 									<th class='text-center'>닉네임</th>
 									<th class='text-center'>성별</th>
-									<th class='text-center'>결제방식</th>
+									<th class='text-center'>Pay 방식</th>
 									<th class='text-center'>상품명</th>
 									<th class='text-center'>상태</th>
 									<th class='text-center'>보유포인트</th>
@@ -54,7 +54,7 @@
 									<th class='text-center'>파트너누락</th>
 									<th class='text-center'>파트너</th>
 									<th class='text-center'>가입시간</th>
-									<th class='text-center'>결제IP</th>
+									<th class='text-center'>Pay IP</th>
 									<th class='text-center'>가입IP</th>
 									<th class='text-center'>수정</th>
 								</tr>

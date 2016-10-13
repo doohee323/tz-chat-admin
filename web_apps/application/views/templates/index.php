@@ -241,78 +241,57 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
-        <li class="header">어드민 화면</li>
+        <li class="header">Admin Page</li>
         
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>채팅관리</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Chatting Manage</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a ui-sref="sht.chatlist({status: 'all'})">채팅목록</a></li>
-            <li><a ui-sref="sht.chatlist({status: 'request'})">채팅신청목록</a></li>
-            <li><a ui-sref="aaaa">신고목록</a></li>
+            <li><a ui-sref="sht.chatlist({status: 'all'})">Chatting List</a></li>
+            <li><a ui-sref="sht.chatlist({status: 'request'})">Chatting Request List</a></li>
+            <li><a ui-sref="aaaa">신고List</a></li>
           </ul>
         </li>
 
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>관리자설정</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Manage자설정</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a ui-sref="aaaa">관리자관리</a></li>
+            <li><a ui-sref="aaaa">Manage자Manage</a></li>
             <li><a ui-sref="aaaa">기본설정</a></li>
-            <li><a ui-sref="sht.userlist">회원관리</a></li>
-            <li><a ui-sref="aaaa">신고목록</a></li>
+            <li><a ui-sref="sht.userlist">회원Manage</a></li>
+            <li><a ui-sref="aaaa">신고List</a></li>
           </ul>
         </li>
         
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>결제관리</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Pay Manage</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a ui-sref="sht.paystats">결제통계</a></li>
-            <li><a ui-sref="sht.paylist">결제리스트</a></li>
-            <li><a ui-sref="aaaa">무통장신청</a></li>
+            <li><a ui-sref="sht.paystats">Pay Stats</a></li>
+            <li><a ui-sref="sht.paylist">Pay List</a></li>
           </ul>
         </li>        
         
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>문의관리</span>
+          <a href="#"><i class="fa fa-link"></i> <span>StatsManage</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a ui-sref="aaaa">파트너가입</a></li>
-            <li><a ui-sref="aaaa">수익금정산</a></li>
-            <li><a ui-sref="aaaa">인트로/배너/링크설정</a></li>
-            <li><a ui-sref="aaaa">게시판문의</a></li>
-            <li><a ui-sref="aaaa">출금신청</a></li>
-            <li><a ui-sref="aaaa">신용카드/휴대폰결제/무통장입금</a></li>
-            <li><a ui-sref="aaaa">SMS인증</a></li>
-            <li><a ui-sref="aaaa">파트너 시스템 연동</a></li>
-            <li><a ui-sref="aaaa">수익금현황</a></li>
-            <li><a ui-sref="aaaa">수익금통계</a></li>
-          </ul>
-        </li>     
-        
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>통계관리</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a ui-sref="aaaa">일별접속통계</a></li>
-            <li><a ui-sref="aaaa">접속경로분석</a></li>
-            <li><a ui-sref="aaaa">포인트LOG</a></li>
+            <li><a ui-sref="aaaa">Daily Access Stats</a></li>
+            <li><a ui-sref="aaaa">Access Path Analysis</a></li>
+            <li><a ui-sref="aaaa">Point log</a></li>
           </ul>
         </li>                   
         

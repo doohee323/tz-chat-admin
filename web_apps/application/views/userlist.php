@@ -3,7 +3,7 @@
 	<!-- 컨텐츠 -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-		<h1>회원목록</h1>
+		<h1>회원List</h1>
 	</section>
 
 	<!-- Main content -->

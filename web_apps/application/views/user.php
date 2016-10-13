@@ -126,7 +126,7 @@
 			<div class="col-md-12">
 				<div class="box-footer">
 					<a id='queryBtn' class="btn btn-default">취소</a> 
-					<a href="/usera" class="btn btn-default">목록</a> 
+					<a href="/usera" class="btn btn-default">List</a> 
 					<a id='saveBtn'
 						class="btn btn-info pull-right">저장</a>
 				</div>

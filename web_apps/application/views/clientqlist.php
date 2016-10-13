@@ -1,7 +1,7 @@
 
 <form name="clientqListFrm"> <!-- 컨텐츠 --> <!-- Content Header (Page header) -->
 <section class="content-header">
-	<h1>고객문의목록</h1>
+	<h1>Client Q&AList</h1>
 </section>
 
 	<!-- Main content -->

@@ -5,7 +5,7 @@
 	</div>
 	<!-- /.login-logo -->
 	<div class="login-box-body">
-		<p class="login-box-msg">로그인 화면</p>
+		<p class="login-box-msg">로그인 Page</p>
 
 		<form name="loginFrm">
 			<div class="form-group has-feedback">

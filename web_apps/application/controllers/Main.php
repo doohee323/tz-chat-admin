@@ -6,7 +6,6 @@ class Main extends CI_Controller {
 		$data = array ();
 		$data ['page_title'] = "CI Hello World App!";
 		
-		$data ['content'] = "aaaaaaaaaaaaaa";
 		$this->load->bview ( 'index', $data );
 	}
 }

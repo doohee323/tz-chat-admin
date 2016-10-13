@@ -3,7 +3,7 @@
 	<!-- 컨텐츠 -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-	<h1>결제통계</h1>
+	<h1>Pay Stats</h1>
 	</section>
 
 	<!-- Main content -->
@@ -42,13 +42,13 @@
 						<thead>
 							<tr>
 								<th class='text-center' style='height: 50px'>날짜</th>
-								<th class='text-center'>카드결제</th>
-								<th class='text-center'>폰결제</th>
+								<th class='text-center'>카드Pay </th>
+								<th class='text-center'>폰Pay </th>
 								<th class='text-center'>무통장입금</th>
 								<th class='text-center'>파트너수익금</th>
 								<th class='text-center'>파트너누락금합계</th>
-								<th class='text-center'>총결제금액<br>(카드+폰결+무통 합계)	</th>
-								<th class='text-center'>순수익= 총결제금액<br>- ( 파트너수익금-파트너누락금합계)	</th>
+								<th class='text-center'>총Pay 금액<br>(카드+폰결+무통 합계)	</th>
+								<th class='text-center'>순수익= 총Pay 금액<br>- ( 파트너수익금-파트너누락금합계)	</th>
 							</tr>
 						</thead>
 						<tbody>

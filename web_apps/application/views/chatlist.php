@@ -2,14 +2,14 @@
 <?php 
 $status_name = '';
 if($status == 'request') {
-	$status_name = '신청';
+	$status_name = 'Request ';
 }
 
 ?>
 
 <form name="chatListFrm"> <!-- 컨텐츠 --> <!-- Content Header (Page header) -->
 <section class="content-header">
-	<h1>채팅<?php echo $status_name?>목록</h1>
+	<h1>Chatting <?php echo $status_name?>List</h1>
 </section>
 
 	<!-- Main content -->
@@ -50,7 +50,7 @@ if($status == 'request') {
 								<th class='text-center' rowspan="2">번호</th>
 								<th class='text-center' colspan="3">보낸이</th>
 								<th class='text-center' rowspan="2">보낸시간</th>
-								<th class='text-center' rowspan="2">채팅내용</th>
+								<th class='text-center' rowspan="2">Chatting 내용</th>
 								<th class='text-center' colspan="3">받는이</th>
 								<th class='text-center' rowspan="2">상태</th>
 								<th class='text-center' rowspan="2">보낸IP</th>
