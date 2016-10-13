@@ -41,14 +41,14 @@
 					<table id="paystats" class="table table-bordered table-hover" style='width:1500px'>
 						<thead>
 							<tr>
-								<th class='text-center' style='height: 50px'>날짜</th>
-								<th class='text-center'>카드Pay </th>
-								<th class='text-center'>폰Pay </th>
-								<th class='text-center'>무통장입금</th>
-								<th class='text-center'>파트너수익금</th>
-								<th class='text-center'>파트너누락금합계</th>
-								<th class='text-center'>총Pay 금액<br>(카드+폰결+무통 합계)	</th>
-								<th class='text-center'>순수익= 총Pay 금액<br>- ( 파트너수익금-파트너누락금합계)	</th>
+								<th class='text-center' style='height: 50px'>Date</th>
+								<th class='text-center'>Credit Card</th>
+								<th class='text-center'>Phone Pay</th>
+								<th class='text-center'>Transfer Money</th>
+								<th class='text-center'></th>
+								<th class='text-center'></th>
+								<th class='text-center'></th>
+								<th class='text-center'></th>
 							</tr>
 						</thead>
 						<tbody>

@@ -46,17 +46,15 @@
 									<th class='text-center'>ID</th>
 									<th class='text-center'>Nickname</th>
 									<th class='text-center'>Gender</th>
-									<th class='text-center'>Pay 방식</th>
-									<th class='text-center'>상품명</th>
+									<th class='text-center'>Pay Type</th>
+									<th class='text-center'>Item Name</th>
 									<th class='text-center'>Status</th>
-									<th class='text-center'>보유포인트</th>
-									<th class='text-center'>뱃지</th>
-									<th class='text-center'>파트너누락</th>
-									<th class='text-center'>파트너</th>
-									<th class='text-center'>가입시간</th>
+									<th class='text-center'>Point</th>
+									<th class='text-center'>Level</th>
+									<th class='text-center'>Signed time</th>
 									<th class='text-center'>Pay IP</th>
-									<th class='text-center'>가입IP</th>
-									<th class='text-center'>수정</th>
+									<th class='text-center'>Signed IP</th>
+									<th class='text-center'>Modify</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -77,7 +75,7 @@
 								<td class='text-center' style='width: 100px'>{paid_ip}</td>
 								<td class='text-center' style='width: 100px'>{created_ip}</td>
 								<td class='text-center' style='width: 100px'><a
-									href='pay/detail?id={id}'>수정</a></td>
+									href='pay/detail?id={id}'>Modify</a></td>
 							</tr>
 						</table>
 					</div>
