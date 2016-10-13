@@ -265,7 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <ul class="treeview-menu">
             <li><a ui-sref="aaaa">Manage자Manage</a></li>
             <li><a ui-sref="aaaa">기본설정</a></li>
-            <li><a ui-sref="sht.userlist">회원Manage</a></li>
+            <li><a ui-sref="sht.userlist">User Manage</a></li>
             <li><a ui-sref="aaaa">신고List</a></li>
           </ul>
         </li>
@@ -309,8 +309,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Page Header
-        <small>Optional description</small>
+        Tz-Chat Admin
+        <small>Tools</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>

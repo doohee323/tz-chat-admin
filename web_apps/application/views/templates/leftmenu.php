@@ -46,14 +46,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </li>
 
         <li class="treeview">
-          <a href="/#"><i class="fa fa-link"></i> <span>Manage자설정</span>
+          <a href="/#"><i class="fa fa-link"></i> <span>Manager Page</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
             <li><a href="/aaaa">Manager Manage</a></li>
-            <li><a href="/usera">회원Manage</a></li>
+            <li><a href="/usera">User Manage</a></li>
           </ul>
         </li>
         
@@ -66,29 +66,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <ul class="treeview-menu">
             <li><a href="/pay?page=stats">Pay Stats</a></li>
             <li><a href="/pay">Pay List</a></li>
-            <li><a href="/aaaa">무통장Request </a></li>
           </ul>
         </li>        
-        
-        <li class="treeview">
-          <a href="/#"><i class="fa fa-link"></i> <span>문의Manage</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="/aaaa">파트너가입</a></li>
-            <li><a href="/aaaa">수익금정산</a></li>
-            <li><a href="/aaaa">인트로/배너/링크설정</a></li>
-            <li><a href="/aaaa">게시판문의</a></li>
-            <li><a href="/aaaa">출금Request </a></li>
-            <li><a href="/aaaa">신용카드/휴대폰Pay /무통장입금</a></li>
-            <li><a href="/aaaa">SMS인증</a></li>
-            <li><a href="/aaaa">파트너 시스템 연동</a></li>
-            <li><a href="/aaaa">수익금현황</a></li>
-            <li><a href="/aaaa">수익금Stats</a></li>
-          </ul>
-        </li>     
         
         <li class="treeview">
           <a href="/#"><i class="fa fa-link"></i> <span>StatsManage</span>
@@ -97,14 +76,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="/aaaa">일별접속Stats</a></li>
-            <li><a href="/aaaa">접속경로분석</a></li>
-            <li><a href="/aaaa">포인트LOG</a></li>
+            <li><a href="/aaaa">Dayly Access Stats</a></li>
+            <li><a href="/aaaa">Access Path Analysis</a></li>
+            <li><a href="/aaaa">Point Log</a></li>
           </ul>
         </li>                   
-        
-        <li class="active"><a href="/sht.chatlist({status: 'all'})"><i class="fa fa-link"></i> <span>Chat List</span></a></li>
-        <li><a href="/#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
         
       </ul>
       <!-- /.sidebar-menu -->
@@ -117,8 +93,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Page Header
-        <small>Optional description</small>
+        Tz-Chat Admin
+        <small>Tools</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="/#"><i class="fa fa-dashboard"></i> Level</a></li>

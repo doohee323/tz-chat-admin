@@ -17,7 +17,7 @@
 					<div class="box-body">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label>조회 기간:</label>
+								<label>Query period:</label>
 								<div class="input-group">
 									<div class="input-group-addon">
 										<i class="fa fa-calendar"></i>
@@ -28,7 +28,7 @@
 							</div>
 						</div>
 						<div class="col-md-6" style='text-align: right;'>
-							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>조회</a>
+							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>Search</a>
 						</div>
 					</div>
 				</div>
@@ -147,11 +147,11 @@ $(document).ready(
 			        $('thead > tr > th').css('vertical-align', 'middle');
 			        $('tbody > tr > td').css('vertical-align', 'middle');
             } else {
-              sweetAlert('', '조회를 실패하였습니다.', 'error');
+              sweetAlert('', 'Failed to retrieve.', 'error');
             }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '조회를 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to retrieve.', 'error');
 			    }
 			  });
 			}

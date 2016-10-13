@@ -17,7 +17,7 @@
 					<div class="box-body">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label>조회 기간:</label>
+								<label>Query period:</label>
 								<div class="input-group">
 									<div class="input-group-addon">
 										<i class="fa fa-calendar"></i>
@@ -28,7 +28,7 @@
 							</div>
 						</div>
 						<div class="col-md-6" style='text-align: right;'>
-							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>조회</a>
+							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>Search</a>
 						</div>
 					</div>
 				</div>
@@ -42,13 +42,13 @@
 							style='width: 1500px'>
 							<thead>
 								<tr>
-									<th class='text-center'>번호</th>
-									<th class='text-center'>아이디</th>
-									<th class='text-center'>닉네임</th>
-									<th class='text-center'>성별</th>
+									<th class='text-center'>No.</th>
+									<th class='text-center'>ID</th>
+									<th class='text-center'>Nickname</th>
+									<th class='text-center'>Gender</th>
 									<th class='text-center'>Pay 방식</th>
 									<th class='text-center'>상품명</th>
-									<th class='text-center'>상태</th>
+									<th class='text-center'>Status</th>
 									<th class='text-center'>보유포인트</th>
 									<th class='text-center'>뱃지</th>
 									<th class='text-center'>파트너누락</th>
@@ -73,8 +73,6 @@
 								<td class='text-center' style='width: 100px'>{status}</td>
 								<td class='text-right' style='width: 100px'>{point}</td>
 								<td class='text-center' style='width: 80px'>{ticket_type}</td>
-								<td class='text-center' style='width: 100px'>{partner_yn}</td>
-								<td class='text-center' style='width: 100px'>{partner_id}</td>
 								<td class='text-center' style='width: 100px'>{created_at}</td>
 								<td class='text-center' style='width: 100px'>{paid_ip}</td>
 								<td class='text-center' style='width: 100px'>{created_ip}</td>
@@ -171,11 +169,11 @@ $(document).ready(
 			        $('thead > tr > th').css('vertical-align', 'middle');
 			        $('tbody > tr > td').css('vertical-align', 'middle');
             } else {
-              sweetAlert('', '조회를 실패하였습니다.', 'error');
+              sweetAlert('', 'Failed to retrieve.', 'error');
             }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '조회를 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to retrieve.', 'error');
 			    }
 			  });
 			}

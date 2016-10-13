@@ -23,7 +23,7 @@ if($status == 'request') {
 					<div class="box-body">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label>조회 기간:</label>
+								<label>Query period:</label>
 								<div class="input-group">
 									<div class="input-group-addon">
 										<i class="fa fa-calendar"></i>
@@ -34,7 +34,7 @@ if($status == 'request') {
 							</div>
 						</div>
 						<div class="col-md-6" style='text-align: right;'>
-							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>조회</a>
+							<a id='queryBtn' class="btn btn-danger" style='margin-top: 20px;'>Search</a>
 						</div>
 					</div>
 				</div>
@@ -47,21 +47,21 @@ if($status == 'request') {
 					<table id="chatlist" class="table table-bordered table-hover">
 						<thead>
 							<tr>
-								<th class='text-center' rowspan="2">번호</th>
-								<th class='text-center' colspan="3">보낸이</th>
-								<th class='text-center' rowspan="2">보낸시간</th>
-								<th class='text-center' rowspan="2">Chatting 내용</th>
-								<th class='text-center' colspan="3">받는이</th>
-								<th class='text-center' rowspan="2">상태</th>
-								<th class='text-center' rowspan="2">보낸IP</th>
+								<th class='text-center' rowspan="2">No.</th>
+								<th class='text-center' colspan="3">Sender</th>
+								<th class='text-center' rowspan="2">Send Time</th>
+								<th class='text-center' rowspan="2">Chatting Content</th>
+								<th class='text-center' colspan="3">Receiver</th>
+								<th class='text-center' rowspan="2">Status</th>
+								<th class='text-center' rowspan="2">Sender IP</th>
 							</tr>
 							<tr>
-								<th class='text-center'>닉네임</th>
-								<th class='text-center'>성별</th>
-								<th class='text-center'>나이</th>
-								<th class='text-center'>닉네임</th>
-								<th class='text-center'>성별</th>
-								<th class='text-center'>나이</th>
+								<th class='text-center'>Nickname</th>
+								<th class='text-center'>Gender</th>
+								<th class='text-center'>Age</th>
+								<th class='text-center'>Nickname</th>
+								<th class='text-center'>Gender</th>
+								<th class='text-center'>Age</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -197,12 +197,12 @@ $(document).ready(
 			        $('thead > tr > th').css('vertical-align', 'middle');
 			        $('tbody > tr > td').css('vertical-align', 'middle');
 			      } else {
-			        sweetAlert('', '조회를 실패하였습니다.', 'error');
+			        sweetAlert('', 'Failed to retrieve.', 'error');
 			      }
 			
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '조회를 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to retrieve.', 'error');
 			    }
 			  });
 			}

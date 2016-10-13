@@ -17,7 +17,7 @@
 			</div>
 			<div class="form-group has-feedback">
 				<input id="passwd" name="passwd" class="form-control"
-					type="password" placeholder="비밀번호를 입력하세요." required> <span
+					type="password" placeholder="비밀No.를 입력하세요." required> <span
 					class="glyphicon glyphicon-lock form-control-feedback"></span>
 			</div>
 			<!--        loginFrm.$valid = {{loginFrm.$valid}}<br> -->
@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="col-xs-8" style="margin-left: 20px;">
 					<div class="checkbox icheck">
-						<label> <input id="saveId" name="saveId" type="checkbox"> 아이디 저장
+						<label> <input id="saveId" name="saveId" type="checkbox"> ID 저장
 						</label>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 				<!-- /.col -->
 			</div>
 		</form>
-		<a name="findId">아이디 찾기</a><br> <a name="findPasswd">비밀번호 찾기</a><br> <a
+		<a name="findId">ID 찾기</a><br> <a name="findPasswd">비밀No. 찾기</a><br> <a
 			name="register" class="text-center">가입하기</a>
 	</div>
 	<!-- /.login-box-body -->
@@ -75,14 +75,14 @@ $(document).ready(
                     }
                     location.href="/main";
                   } else {
-                    sweetAlert('', '사용자 정보를 확인할 수 없습니다.', 'warning');
+                    sweetAlert('', 'Failed to find your data.', 'warning');
                   }
                 } else {
-                  sweetAlert('에러', '로그인에 실패하였습니다.', 'error');
+                  sweetAlert('Error', 'Failed to sign in.', 'error');
                 }
               },
               error : function(jqXHR, textStatus, errorThrown) {
-                sweetAlert('에러', '로그인에 실패하였습니다.', 'error');
+                sweetAlert('Error', 'Failed to sign in.', 'error');
               }
             });
           });

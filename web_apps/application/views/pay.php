@@ -47,7 +47,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="status" class="col-sm-3 control-label">상태</label>
+								<label for="status" class="col-sm-3 control-label">Status</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="status"
 										placeholder="status">
@@ -58,23 +58,6 @@
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="ticket_expired"
 										placeholder="ticket_expired">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="partner_yn" class="col-sm-3 control-label">파트너보유여부</label>
-								<div class="col-sm-9">
-									<label> 여 <input type="radio" name="partner_yn"
-										class="model minimal-red">
-									</label> <label> 부 <input type="radio" name="partner_yn"
-										class="model minimal-red">
-									</label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="partner_id" class="col-sm-3 control-label">파트너ID</label>
-								<div class="col-sm-9">
-									<input type="text" class="form-control model" name="partner_id"
-										placeholder="partner_id">
 								</div>
 							</div>
 														
@@ -135,11 +118,11 @@ $(document).ready(
                   $( "[name*='" + key + "']" ).val(val);
                 }
               } else {
-                sweetAlert('', '조회를 실패하였습니다.', 'error');
+                sweetAlert('', 'Failed to retrieve.', 'error');
               }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '조회를 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to retrieve.', 'error');
 			    }
 			  });
 			}
@@ -170,13 +153,13 @@ $(document).ready(
 			    type : 'POST',
 			    success : function(res, textStatus, jqXHR) {
               if (res) {
-                sweetAlert('', '저장하였습니다.', 'info');
+                sweetAlert('', 'Saved!', 'info');
               } else {
-                sweetAlert('', '저장을 실패하였습니다.', 'error');
+                sweetAlert('', 'Failed to save.', 'error');
               }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '저장을 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to save.', 'error');
 			    }
 			  });
 			}

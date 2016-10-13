@@ -4,7 +4,7 @@
 	<!-- 컨텐츠 -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-		<h1>회원정보수정</h1>
+		<h1>User 정보수정</h1>
 	</section>
 
 	<!-- Main content -->
@@ -16,21 +16,21 @@
 					<form class="form-horizontal">
 						<div class="box-body">
 							<div class="form-group">
-								<label for="userid" class="col-sm-3 control-label">아이디</label>
+								<label for="userid" class="col-sm-3 control-label">ID</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model model"
 										name="userid" placeholder="userid">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="nickname" class="col-sm-3 control-label">닉네임</label>
+								<label for="nickname" class="col-sm-3 control-label">Nickname</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="nickname"
 										placeholder="nickname">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="gender" class="col-sm-3 control-label">성별</label>
+								<label for="gender" class="col-sm-3 control-label">Gender</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="gender"
 										placeholder="gender">
@@ -47,7 +47,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="phone_no" class="col-sm-3 control-label">핸드폰번호</label>
+								<label for="phone_no" class="col-sm-3 control-label">핸드폰No.</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="phone_no"
 										placeholder="phone_no">
@@ -98,23 +98,6 @@
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="created_at"
 										placeholder="created_at">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="partner_yn" class="col-sm-3 control-label">파트너누락</label>
-								<div class="col-sm-9">
-									<label> 여 <input type="radio" name="partner_yn"
-										class="minimal-red model">
-									</label> <label> 부 <input type="radio" name="partner_yn"
-										class="minimal-red model">
-									</label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="partner_id" class="col-sm-3 control-label">파트너</label>
-								<div class="col-sm-9">
-									<input type="text" class="form-control model" name="partner_id"
-										placeholder="partner_id">
 								</div>
 							</div>
 						</div>
@@ -174,11 +157,11 @@ $(document).ready(
                   $( "[name*='" + key + "']" ).val(val);
                 }
               } else {
-                sweetAlert('', '조회를 실패하였습니다.', 'error');
+                sweetAlert('', 'Failed to retrieve.', 'error');
               }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '조회를 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to retrieve.', 'error');
 			    }
 			  });
 			}
@@ -209,13 +192,13 @@ $(document).ready(
 			    type : 'POST',
 			    success : function(res, textStatus, jqXHR) {
               if (res) {
-                sweetAlert('', '저장하였습니다.', 'info');
+                sweetAlert('', 'Saved!', 'info');
               } else {
-                sweetAlert('', '저장을 실패하였습니다.', 'error');
+                sweetAlert('', 'Failed to save.', 'error');
               }
 			    },
 			    error : function(jqXHR, textStatus, errorThrown) {
-			      sweetAlert('', '저장을 실패하였습니다.', 'error');
+			      sweetAlert('', 'Failed to save.', 'error');
 			    }
 			  });
 			}

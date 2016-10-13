@@ -82,10 +82,10 @@ function onImgError(source) {
 }
 
 var config = {
-    domain : 'http://admin.tzchat.local',
+    domain : 'http://admin.topzone.biz',
     NODE_ENV : 'development',
     socketLogined : false,
-    socket_domain : 'http://admin.tzchat.local'
+    socket_domain : 'http://admin.topzone.biz'
 };
 
 if (location.hostname === 'admin.tzchat.net') {
