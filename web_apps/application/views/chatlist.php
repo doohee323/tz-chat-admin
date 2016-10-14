@@ -7,7 +7,7 @@ if($status == 'request') {
 
 ?>
 
-<form name="chatListFrm"> <!-- 컨텐츠 --> <!-- Content Header (Page header) -->
+<form name="chatListFrm"> <!-- Content --> <!-- Content Header (Page header) -->
 <section class="content-header">
 	<h1>Chatting <?php echo $status_name?>List</h1>
 </section>

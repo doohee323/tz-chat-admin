@@ -1,7 +1,7 @@
 
 <form name="userListFrm"
 	
-	<!-- 컨텐츠 -->
+	<!-- Content -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
 		<h1>User 정보수정</h1>
@@ -37,31 +37,31 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="phone_confirm" class="col-sm-3 control-label">실명인증</label>
+								<label for="phone_confirm" class="col-sm-3 control-label">Verify</label>
 								<div class="col-sm-9">
 									<label> Woman <input type="radio" name="phone_confirm"
 										class="model minimal-red">
-									</label> <label> 부 <input type="radio" name="phone_confirm"
+									</label> <label> <input type="radio" name="phone_confirm"
 										class="model minimal-red">
 									</label>
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="phone_no" class="col-sm-3 control-label">핸드폰No.</label>
+								<label for="phone_no" class="col-sm-3 control-label">Phone No.</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="phone_no"
 										placeholder="phone_no">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="region1" class="col-sm-3 control-label">지역</label>
+								<label for="region1" class="col-sm-3 control-label">Region</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="region1"
 										placeholder="region1">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="region2" class="col-sm-3 control-label">세부지역</label>
+								<label for="region2" class="col-sm-3 control-label">Detail Region</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="region2"
 										placeholder="region2">
@@ -80,21 +80,21 @@
 					<form class="form-horizontal">
 						<div class="box-body">
 							<div class="form-group">
-								<label for="point" class="col-sm-3 control-label">포인트</label>
+								<label for="point" class="col-sm-3 control-label">Point</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="point"
 										placeholder="point">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="ticket_type" class="col-sm-3 control-label">뱃지</label>
+								<label for="ticket_type" class="col-sm-3 control-label">Level</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model"
 										name="ticket_type" placeholder="ticket_type">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="created_at" class="col-sm-3 control-label">가입시간</label>
+								<label for="created_at" class="col-sm-3 control-label">Signed Time</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="created_at"
 										placeholder="created_at">
@@ -108,10 +108,10 @@
 			</div>
 			<div class="col-md-12">
 				<div class="box-footer">
-					<a id='queryBtn' class="btn btn-default">취소</a> 
+					<a id='queryBtn' class="btn btn-default">Cancel</a> 
 					<a href="/usera" class="btn btn-default">List</a> 
 					<a id='saveBtn'
-						class="btn btn-info pull-right">저장</a>
+						class="btn btn-info pull-right">Save</a>
 				</div>
 			</div>
 		</div>

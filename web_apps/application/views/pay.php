@@ -1,10 +1,10 @@
 
 <form name="payListFrm"
 	
-	<!-- 컨텐츠 -->
+	<!-- Content -->
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
-		<h1>결재수정</h1>
+		<h1>Modify Pay</h1>
 	</section>
 
 	<!-- Main content -->
@@ -17,7 +17,7 @@
 						<div class="box-body">
 						
 							<div class="form-group">
-								<label for="pay_type" class="col-sm-3 control-label">지불유형</label>
+								<label for="pay_type" class="col-sm-3 control-label">Pay Type</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model model"
 										name="pay_type" placeholder="pay_type">
@@ -26,21 +26,21 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="item_type" class="col-sm-3 control-label">상품명</label>
+								<label for="item_type" class="col-sm-3 control-label">Item Type</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="item_type"
 										placeholder="item_type">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="ticket_type" class="col-sm-3 control-label">뱃지</label>
+								<label for="ticket_type" class="col-sm-3 control-label">Level</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="ticket_type"
 										placeholder="ticket_type">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="point" class="col-sm-3 control-label">포인트</label>
+								<label for="point" class="col-sm-3 control-label">Point</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="point"
 										placeholder="point">
@@ -54,7 +54,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="ticket_expired" class="col-sm-3 control-label">만료예정일</label>
+								<label for="ticket_expired" class="col-sm-3 control-label">Level Expired</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control model" name="ticket_expired"
 										placeholder="ticket_expired">
@@ -69,10 +69,10 @@
 			</div>
 			<div class="col-md-12">
 				<div class="box-footer">
-					<a id='queryBtn' class="btn btn-default">취소</a> 
+					<a id='queryBtn' class="btn btn-default">Cancel</a> 
 					<a href="/pay" class="btn btn-default">List</a> 
 					<a id='saveBtn'
-						class="btn btn-info pull-right">저장</a>
+						class="btn btn-info pull-right">Save</a>
 				</div>
 			</div>
 		</div>
