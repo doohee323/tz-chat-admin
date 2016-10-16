@@ -39,6 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="/main/chatroom">Chat Room</a></li>
             <li><a href="/chata?status=all">Chatting List</a></li>
             <li><a href="/chata?status=request">Chatting Request List</a></li>
             <li><a href="/clientq">Client Q&A List</a></li>
