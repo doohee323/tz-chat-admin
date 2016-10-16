@@ -2,6 +2,8 @@
 <span> Test ID 1: doohee323 / 123qwe
 </span>
 <a href='http://www.topzone.biz' target='_blank'> doosee323 / 123qwe </a>
+<br>
+<a href="/main/chatroom">Chat Room</a>
 
 <!-- Main content -->
 <section class="content">
